@@ -13,13 +13,13 @@ user_pref("general.smoothScroll.stopDecelerationWeighting",            "1.0");//
 /// adjust multiply factor for mousewheel - or set to false if scrolling is way too fast  
 user_pref("mousewheel.system_scroll_override.horizontal.factor",         200);//NSS    [200]
 user_pref("mousewheel.system_scroll_override.vertical.factor",           200);//NSS    [200]
-user_pref("mousewheel.system_scroll_override_on_root_content.enabled",  true);//NSS   [true]
-user_pref("mousewheel.system_scroll_override.enabled",                  true);//NSS   [true]
+user_pref("mousewheel.system_scroll_override_on_root_content.enabled",  false);//NSS   [true]
+user_pref("mousewheel.system_scroll_override.enabled",                  false);//NSS   [true]
 
 /// adjust pixels at a time count for mousewheel - cant do more than a page at once if <100
-user_pref("mousewheel.default.delta_multiplier_x",                       100);//NSS    [100]
-user_pref("mousewheel.default.delta_multiplier_y",                       100);//NSS    [100]
-user_pref("mousewheel.default.delta_multiplier_z",                       100);//NSS    [100]
+user_pref("mousewheel.default.delta_multiplier_x",                       50);//NSS    [100]
+user_pref("mousewheel.default.delta_multiplier_y",                       50);//NSS    [100]
+user_pref("mousewheel.default.delta_multiplier_z",                       50);//NSS    [100]
 
 ///  this preset will reset couple extra variables for consistency
 user_pref("apz.allow_zooming",                                          true);//NSS   [true]

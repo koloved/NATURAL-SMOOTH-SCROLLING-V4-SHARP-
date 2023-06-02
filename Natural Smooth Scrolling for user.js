@@ -13,13 +13,13 @@ user_pref("general.smoothScroll.stopDecelerationWeighting",            "1.0");//
 /// adjust multiply factor for mousewheel - or set to false if scrolling is way too fast  
 user_pref("mousewheel.system_scroll_override.horizontal.factor",         200);//NSS    [200]
 user_pref("mousewheel.system_scroll_override.vertical.factor",           200);//NSS    [200]
-user_pref("mousewheel.system_scroll_override_on_root_content.enabled",  false);//NSS   [true]
-user_pref("mousewheel.system_scroll_override.enabled",                  false);//NSS   [true]
+user_pref("mousewheel.system_scroll_override_on_root_content.enabled",  true);//NSS   [true]
+user_pref("mousewheel.system_scroll_override.enabled",                  true);//NSS   [true]
 
 /// adjust pixels at a time count for mousewheel - cant do more than a page at once if <100
-user_pref("mousewheel.default.delta_multiplier_x",                       50);//NSS    [100]
-user_pref("mousewheel.default.delta_multiplier_y",                       50);//NSS    [100]
-user_pref("mousewheel.default.delta_multiplier_z",                       50);//NSS    [100]
+user_pref("mousewheel.default.delta_multiplier_x",                       150);//NSS    [100]
+user_pref("mousewheel.default.delta_multiplier_y",                       150);//NSS    [100]
+user_pref("mousewheel.default.delta_multiplier_z",                       150);//NSS    [100]
 
 ///  this preset will reset couple extra variables for consistency
 user_pref("apz.allow_zooming",                                          true);//NSS   [true]
@@ -50,8 +50,12 @@ user_pref("toolkit.scrollbox.horizontalScrollDistance",                    5);//
 user_pref("toolkit.scrollbox.verticalScrollDistance",                      3);//NSS      [3]
 ///
 /// fullscreen transition
-user_pref("full-screen-api.transition-duration.enter",                    0 0);
-user_pref("full-screen-api.transition-duration.leave", 0 0
-user_pref("full-screen-api.transition.timeout", 0
-user_pref("full-screen-api.warning.delay", 0
-user_pref("full-screen-api.warning.timeout", 0
+user_pref("full-screen-api.transition-duration.enter",                  0 0);
+user_pref("full-screen-api.transition-duration.leave", 					0 0);
+user_pref("full-screen-api.transition.timeout", 						0);
+user_pref("full-screen-api.warning.delay", 								0);
+user_pref("full-screen-api.warning.timeout", 							0);
+
+/// quality of live
+user_pref("browser.tabs.insertRelatedAfterCurrent",						false);//Open New Tabs at End
+user_pref("layout.spellcheckDefault",									2);//Make Firefox’s Spell Checker More Useful

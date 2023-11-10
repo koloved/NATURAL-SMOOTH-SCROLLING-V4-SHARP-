@@ -65,18 +65,6 @@ user_pref("dom.event.contextmenu.enabled",						false);//Don't allow websites to
 user_pref("dom.event.clipboardevents.enabled",						false);//Don't allow websites to prevent copy and paste.
 user_pref("network.IDN_show_punycode",						true);//Show punycode. Help protect from character 'spoofing' eg:xn--80ak6aa92e.com -> аррӏе.com
 
-///PRIVACY SETTINGS
-user_pref("privacy.firstparty.isolate",						true);//This preference isolates all browser identifier sources (e.g. cookies)
-user_pref("network.http.referer.spoofSource",						true);//Send fake referrer (if choose to send referrers). Recommended.
-user_pref("privacy.trackingprotection.enabled",						true);//Mozilla’s built in tracking protection.
-user_pref("privacy.resistFingerprinting",						true);//This preference makes Firefox more resistant to browser fingerprinting.
-user_pref("geo.enabled",						false);//Mozilla’s built in tracking protection.
-user_pref("geo.wifi.uri",						false);
-user_pref("browser.search.geoip.url",						blank);//Disables geolocation and firefox logging geolocation requests.
-user_pref("browser.safebrowsing.enabled",						false);//Disable Google Safe Browsing and malware and phishing protection.
-user_pref("browser.send_pings",						false);//Prevent website tracking clicks.
-user_pref("dom.battery.enabled",						false);//Disable website reading how much battery your mobile device or laptop has.
-
 ///PERFORMANCE
 user_pref("webgl.force-enabled",						true);
 user_pref("layers.acceleration.force-enabled",						true);
@@ -94,3 +82,4 @@ user_pref("browser.cache.disk_cache_ssl",						false);
 user_pref("browser.cache.memory.enable",						true);
 user_pref("browser.cache.memory.capacity",						2048000);
 user_pref("browser.cache.offline.enable",						false);
+user_pref("browser.cache.memory.max_entry_size",						512000);

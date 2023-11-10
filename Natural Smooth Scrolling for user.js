@@ -60,19 +60,6 @@ user_pref("full-screen-api.warning.timeout", 							0);
 user_pref("browser.tabs.insertRelatedAfterCurrent",						false);//Open New Tabs at End
 user_pref("layout.spellcheckDefault",									2);//Make Firefox’s Spell Checker More Useful
 
-/// CONTROL & MISC
-user_pref("dom.event.contextmenu.enabled",						false);//Don't allow websites to prevent use of right-click
-user_pref("dom.event.clipboardevents.enabled",						false);//Don't allow websites to prevent copy and paste.
-user_pref("network.IDN_show_punycode",						true);//Show punycode. Help protect from character 'spoofing' eg:xn--80ak6aa92e.com -> аррӏе.com
-
-///PERFORMANCE
-user_pref("webgl.force-enabled",						true);
-user_pref("layers.acceleration.force-enabled",						true);
-user_pref("layers.offmainthreadcomposition.enabled",						true);
-user_pref("layers.offmainthreadcomposition.async-animations",						true);
-user_pref("layers.async-video.enabled",						true);
-user_pref("html5.offmainthread",						true);//Enable Hardware Acceleration and Off Main Thread Compositing (OMTC).
-
 ///SSD SAFE !!!
 user_pref("browser.cache.disk.enable",						false);
 user_pref("browser.sessionstore.interval",						6480000);
